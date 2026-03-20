@@ -1,0 +1,55 @@
+/* App.css */
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* centers vertically */
+  align-items: center;       /* centers horizontally */
+  background: linear-gradient(135deg, #f5f7fa, #e4ebf5);
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  color: #333;
+}
+
+/* Header */
+h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #2a5298;
+}
+
+/* Chart Container */
+.analytics-container {
+  width: 90%;
+  max-width: 600px;
+  height: 500px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Links (if used) */
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.App-link:hover {
+  color: #21a1f1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  .analytics-container {
+    height: 400px;
+    padding: 15px;
+  }
+}
